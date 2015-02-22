@@ -67,7 +67,7 @@ body {
 }
 .grey
 {
-	color: #6D6E71;
+	color: #3A3A3C;
 }
 .middle
 {
@@ -106,10 +106,17 @@ h2
 
 }
 
-a
+a, span
+{
+	font-size: 14px;
+}
+span
 {
 	color: #3A3A3C;
-	font-size: 14px;
+}
+a
+{
+	color: #25AAE1;
 	text-decoration: none;
 }
 a:hover
@@ -117,6 +124,11 @@ a:hover
 	text-decoration: underline;
 }
 
+h1
+{
+	font-size: 30px;
+margin: 0 0 30px 0;
+}
 h3
 {
 	font-size: 16px;
@@ -129,6 +141,31 @@ p
 {
 	text-align: justify;
 	font-size: 14px;
+}
+
+.tablt_h1
+{
+	padding: 20px 0 0 0;
+	background: #3BB3E4;
+	border-bottom: 25px solid #25AAE1;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 35px;
+}
+
+.tablt_h1::before
+{
+content: "";
+background: url(images/tablets.png);
+background-size: 150px; 
+width: 150px;
+height: 150px;
+display: inline-block;
+position: absolute;
+top: -40px;
+left: -20px;
 }
 /* Header
 -----------------------------------------------------------------------------*/
@@ -166,7 +203,7 @@ float: right;
 padding: 10px 20px;
 background: #F0F9FC;
 margin-top: 20px;
-border-bottom: 2px solid #58585A;	
+border-bottom: 2px solid #B3B3B3;	
 }
 
 .rem_reg
@@ -209,7 +246,31 @@ position: relative;
 border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 height: 100%;
-border-bottom: 2px solid #58585A;
+border-bottom: 2px solid #B3B3B3;
+}
+
+#navstring {
+padding: 0;
+margin: 0 0 10px 0;
+overflow: hidden;
+}
+
+#navstring > ul {
+padding: 0;
+margin: 0 0 0 -12px;
+list-style: none;
+}
+
+#navstring > ul li {
+padding: 0;
+margin: 0 10px 0 0;
+float: left;
+font-size: 11px;
+}
+
+#navstring > ul li::before {
+content: "/ ";
+padding: 0 5px 0 0;
 }
 
 #main_content
@@ -259,7 +320,7 @@ margin-right: 0;
 {
 	margin:20px 30px;
 	padding:20px 30px;
-	border-bottom: 2px solid #58585A;
+	border-bottom: 2px solid #4A9FB6;
 }
 #search_tbs h2
 {
@@ -273,6 +334,7 @@ margin-right: 0;
 #search_tbs a
 {
 font-size: 20px;
+color: #3A3A3C;
 }
 
 #search_tbs div
@@ -313,7 +375,10 @@ padding: 8px 15px;
 {
 	color: #fff;
 }
-
+.primer_tbls a
+{
+color: #3A3A3C;
+}
 .search_main
 {
 	display:inline-block;
