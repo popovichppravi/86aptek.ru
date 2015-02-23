@@ -101,9 +101,9 @@ a, h3
 	color: #3A3A3C;
 }
 
-h2
+h3, h2
 {
-
+font-weight: bold;
 }
 
 a, span, div
@@ -232,6 +232,70 @@ top: 6px;
 left: -3px;
 position: relative;
 }
+
+/**/
+.city_apteka
+{
+	width: 100%
+}
+.city_apteka td
+{
+	background: #D7E9F8;
+	padding: 20px 30px;
+border-right: 5px solid #fff;
+border-bottom: 10px solid #fff;
+}
+
+.city_apteka tr
+{
+	border-left: 5px solid #25AAE1;
+margin-bottom: 10px; 
+}
+
+.city_apteka .adress::before
+{
+content: "";
+background: url(images/adress.png) 0 -25px;
+background-size: 15px;
+background-repeat: no-repeat;
+width: 20px;
+height: 30px;
+display: inline-block;
+top: 6px;
+position: relative;
+}
+
+.city_apteka .tel::before
+{
+content: "";
+background: url(images/tel.png) 0 19px;
+background-size: 20px;
+width: 20px;
+height: 20px;
+display: inline-block;
+top: 6px;
+left: -3px;
+position: relative;
+}
+
+.city_apteka tr:hover > td
+{
+	background: #E2EEC1;
+}
+
+.city_apteka tr:hover
+{
+	border-left: 5px solid #A7CE38;
+}
+
+.city_apteka h3:hover
+{
+	color: #25AAE1;
+}
+
+
+
+/**/
 
 .map
 {
