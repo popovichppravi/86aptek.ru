@@ -220,6 +220,60 @@ border-radius: 150px;
 border: 3px solid #fff;
 }
 
+.feedback_h1
+{
+	padding: 20px 0 0 0;
+	background: #3BB3E4;
+	border-bottom: 25px solid #25AAE1;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 35px;
+}
+
+.feedback_h1::before
+{
+content: "";
+background: url(images/feedback.png);
+background-size: 100px;
+width: 100px;
+height: 120px;
+display: inline-block;
+position: absolute;
+top: -20px;
+left: -20px;
+}
+.feedback_form 
+{
+margin-top: 30px;
+padding: 30px;
+background: #F3F3F4;
+border: 1px solid #D4D5D7;
+}
+
+.feedback_form input[type="text"]
+{
+	width: 250px;
+}
+
+.feedback_form textarea
+{
+  width: 99%;
+}
+
+.feedback_form table
+{
+width: 100%;
+ border-collapse: separate;
+  border-spacing: 7px 11px;
+}
+
+.feedback_form td
+{
+vertical-align: top;
+}
+
 .kont_apteka
 {
 	background: #D7E9F8;
