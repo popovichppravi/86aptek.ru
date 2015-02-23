@@ -69,6 +69,15 @@ body {
 {
 	color: #3A3A3C;
 }
+
+.blue_txt
+{
+	color: #3BB3E4;
+}
+.green_txt
+{
+	color: #9BC44E;
+}
 .middle
 {
 	background: url(images/bg.png);
@@ -129,10 +138,17 @@ h1
 	font-size: 30px;
 margin: 0 0 30px 0;
 }
+
+h2
+{
+	font-size: 20px;
+margin-bottom: 5px;
+}
 h3
 {
 	font-size: 16px;
 }
+
 i
 {
 	font-style: italic;
@@ -756,6 +772,13 @@ text-decoration: none;
 {
 	float: left;
 	margin-right: 20px;
+}
+
+.tabletka
+{
+	border-bottom: 1px solid #B8B8B8;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
 }
 /* Footer
 -----------------------------------------------------------------------------*/
