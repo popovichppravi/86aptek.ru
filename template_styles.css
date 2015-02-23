@@ -168,6 +168,76 @@ top: -40px;
 left: -20px;
 }
 
+.apteka_h1
+{
+	padding: 20px 0 0 0;
+	background: #3BB3E4;
+	border-bottom: 25px solid #25AAE1;
+	color: #fff;
+	position: relative;
+	text-align: center;
+	margin-bottom: 60px;
+	margin-top: 35px;
+}
+
+.apteka_h1::before
+{
+content: "";
+background: url(images/plus.png);
+background-size: 130px; 
+width: 130px;
+height: 130px;
+display: inline-block;
+position: absolute;
+top: -40px;
+left: -20px;
+}
+
+.kont_apteka
+{
+	background: #D7E9F8;
+padding: 10px 30px;
+border-left: 5px solid #25AAE1;
+display: inline-block;
+}
+
+.kont_apteka span
+{
+	margin: 5px 0;
+display: inline-block;
+}
+
+.kont_apteka .adress::before
+{
+content: "";
+background: url(images/adress.png) 0 -25px;
+background-size: 15px;
+background-repeat: no-repeat;
+width: 20px;
+height: 30px;
+display: inline-block;
+top: 6px;
+position: relative;
+}
+
+.kont_apteka .tel::before
+{
+content: "";
+background: url(images/tel.png) 0 19px;
+background-size: 20px;
+width: 20px;
+height: 20px;
+display: inline-block;
+top: 6px;
+left: -3px;
+position: relative;
+}
+
+.map
+{
+	margin-top: 30px;
+}
+
 
 /* Header
 -----------------------------------------------------------------------------*/
@@ -255,7 +325,7 @@ border-bottom: 2px solid #B3B3B3;
 
 #navstring {
 padding: 0;
-margin: 0 0 10px 0;
+margin: 0 0 20px 0;
 overflow: hidden;
 }
 
@@ -269,17 +339,21 @@ list-style: none;
 padding: 0;
 margin: 0 10px 0 0;
 float: left;
-font-size: 11px;
 }
 
+#navstring > ul li a, #navstring > ul li span
+{
+	font-size: 12px !important;
+}
 #navstring > ul li::before {
 content: "/ ";
 padding: 0 5px 0 0;
+font-size: 12px !important;
 }
 
 #main_content
 {
-	padding: 20px 30px 20px 30px;
+	padding: 0px 30px 20px 30px;
 }
 
 #menu_top
@@ -474,6 +548,7 @@ display: block;
 {
 	display: inline-block;
 	width: 610px;
+	vertical-align: middle;
 }
 .right_tl a
 {
