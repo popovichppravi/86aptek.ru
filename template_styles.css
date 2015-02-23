@@ -184,12 +184,12 @@ left: -20px;
 {
 content: "";
 background: url(images/plus.png);
-background-size: 130px; 
-width: 130px;
-height: 130px;
+background-size: 100px;
+width: 100px;
+height: 100px;
 display: inline-block;
 position: absolute;
-top: -40px;
+top: -20px;
 left: -20px;
 }
 
@@ -236,6 +236,54 @@ position: relative;
 .map
 {
 	margin-top: 30px;
+}
+
+ul.cities li
+{
+width: 45%;
+float: left;
+margin: 5px 0;
+}
+
+.cities a
+{
+font-size: 16px;
+}
+
+.cities a::before
+{
+	content: "";
+background: url(images/adress.png) 0 -25px;
+background-size: 15px;
+background-repeat: no-repeat;
+width: 20px;
+height: 30px;
+display: inline-block;
+top: 6px;
+position: relative;
+}
+
+.cities a:hover:before
+{
+	content: "";
+background: url(images/adress.png) 0 6px;
+background-size: 15px;
+background-repeat: no-repeat;
+width: 20px;
+height: 30px;
+display: inline-block;
+top: 6px;
+position: relative;
+}
+
+.cities a:hover
+{
+	color: #A7CE38;
+}
+
+.cities
+{
+	display: inline-block;
 }
 
 
